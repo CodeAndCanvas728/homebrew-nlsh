@@ -9,14 +9,17 @@ it once you approve it.
 
 ```sh
 brew tap CodeAndCanvas728/nlsh
-brew install codeandcanvas728/nlsh
+brew install codeandcanvas728/nlsh/nlsh
 ```
 
-Homebrew 7 asks you to trust a tap before it will use it:
+Homebrew 7 asks you to trust a tap before it will use one:
 
 ```sh
 brew trust codeandcanvas728/nlsh
 ```
+
+Naming the formula on the command line, as above, is enough on its own; the
+trust step is what lets Homebrew load the tap's formulae by other routes.
 
 ## Where the formula comes from
 
